@@ -1,6 +1,6 @@
 To use the BankAccount program, here's everything someone needs to know:
 
-# BankAccount Class:
+BankAccount Class:
 
 This class represents a simple bank account.
 It has a private field balance to store the current balance of the account.
@@ -11,7 +11,6 @@ GetBalance(): Returns the current balance of the account.
 Usage (Main Method):
 
 In the Main method of the Program class, an instance of BankAccount is created using the constructor new BankAccount().
-
 The Deposit method is called to deposit an amount of 100 into the account.
 The Withdraw method is called to withdraw an amount of 50 from the account.
 Finally, the GetBalance method is called to retrieve and print the current balance of the account to the console.
@@ -25,5 +24,3 @@ Important Notes:
 Ensure that the amount provided for deposit and withdrawal is a positive decimal value.
 The withdrawal amount should not exceed the current balance of the account. Otherwise, the withdrawal operation will not be allowed.
 The GetBalance method returns the current balance of the account, which can be useful for displaying the account balance to the user or performing further calculations.
-# [notebook](https://github.com/ngwutaogechi/cse210-projects.git)
-
